@@ -1,0 +1,14 @@
+.header{
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
+.notification{
+  position: relative;
+  margin-right: 1.5rem;
+}
