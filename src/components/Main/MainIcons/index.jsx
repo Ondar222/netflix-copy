@@ -1,8 +1,14 @@
 const MainIcons = () => {
   return <div className="" style={{ display: "flex", flexDirection: "row"}}>
-   <h1 style={{color: "white"}}>
-    sfewer
-   </h1>
+  <a href="">
+    <img src="" alt="" />
+  </a>
+  <a href="">
+    <img src="" alt="" />
+  </a>
+  <a href="">
+    <img src="" alt="" />
+  </a>
   </div>
 }
 
