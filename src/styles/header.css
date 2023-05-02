@@ -1,14 +1,23 @@
-.header{
-  padding: 20px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
+.vertical__header {
+  position: relative;
+  width: 10%;
+  height: 100vh;
+  background: #333333;
+  color: white;
 }
 
+.vertical__header__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding-top: 20px;
+}
 
-
-.notification{
-  position: relative;
-  margin-right: 1.5rem;
+.vertical__menu__social {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

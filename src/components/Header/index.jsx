@@ -1,19 +1,28 @@
+
 const Header = () => {
-  return (
-    <div className="header" style={{width: "100%", background: "black", display: "flex", justifyContent: "space-between", padding: "20px 40px"}}>
-      <div className="container" style={{justifyContent: "space-between", display: "flex", flexDirection: "row", position: "relative", width: "100%"}}>   
-      <a href="">
-        <img src="/humburger-icon.png" alt="" />
-        </a>   
-      <a className="logo__netflix" href="/">
-        <img src="/Logo Netflix.png" alt="" />
+  return <div className="vertical__header">
+    <div className="vertical__header__container">
+      <a href="/">
+        <img src="/logo-food.png" alt="" />
       </a>
-      <a href="">
-        <img src="/search-icon.png" alt="" />
+      <a href="/">
+        <img src="/menu-food-left.png" alt="" />
       </a>
+
+      <div className="vertical__menu__social">
+
+        <a href="/">
+          <img src="/soc-icons-youtube.png" alt="" />
+        </a>
+        <a href="/">
+          <img src="/soc-icons-wk .png" alt="" />
+        </a>
+        <a href="/">
+          <img src="/soc-icons-telegram.png" alt="" />
+        </a>
       </div>
     </div>
-  )
+  </div>
 }
 
-export default Header;
+export default Header

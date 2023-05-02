@@ -1,23 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 import './styles/globals.css'
 import './styles/header.css'
+import './styles/footer.css'
 import './styles/main.css'
 import Header from './components/Header';
-import Main from './components/Main/Main';
+import Main from './components/Main'
 import Footer from './components/Footer'
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <body>
+    <body style={{ display: "flex", flexDirection: "row" }}>
 
-    <Header />
-    <Main />
+      <Header />
+      <Main />
+    </body>
+
     <Footer />
-     </body>
-  
   </React.StrictMode>
 );

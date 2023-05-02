@@ -1,18 +1,12 @@
-import FooterMain from "./FooterMain/FooterMain";
-
 const Footer = () => {
-  return (
-    <div className="Footer">
-      <div className="container__footer" style={{ background: "black",color: "white", width: "100%", height: "100%", textAlign: "center", padding: "20px 0px" }}>
-        <a href="">
-          <h1>TRENDING ON NETFLIX</h1>
-        </a>
-      </div>
-      <div>
-        <FooterMain />
-      </div>
+  return <div className="footer" >
+    <div className="footer__container">
+      <img src="/logo-food.png" alt="" />
+      <p>Политика конфиденциальности</p>
+      <p>Дизайн d-e-n.ru</p>
     </div>
-  )
+  </div>
+
 }
 
-export default Footer;
+export default Footer
